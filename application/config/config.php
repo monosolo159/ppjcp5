@@ -26,7 +26,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 // $config['base_url'] = 'http://indigo.project57.net/';
 // $config['base_url'] = 'http://192.168.1.4/product_detail/';
 // $config['base_url'] = 'http://localhost/prototype_no_index_phptest/';
-$config['base_url'] = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https" : "http") . "://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]";
+$config['base_url'] = 'http://localhost/ppjcp5/';
+// $config['base_url'] = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https" : "http") . "://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]";
 
 
 

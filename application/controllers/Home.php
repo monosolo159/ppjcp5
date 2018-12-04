@@ -5,6 +5,8 @@ class Home extends CI_Controller {
 
 	public function index(){
 		// redirect('Home/productlist');
-		$this->load->view('back/body');
+		$this->load->view('front/template/header');
+		$this->load->view('front/body');
+		$this->load->view('front/template/footer');
 	}
 }

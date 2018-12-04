@@ -8,28 +8,28 @@
 <meta content="" name="description" />
 <meta content="" name="author" />
 
-<link href="<?php echo base_url(); ?>assets/plugins/jquery-metrojs/MetroJs.min.css" rel="stylesheet" type="text/css" />
-<link rel="stylesheet" type="text/css" href="<?php echo base_url(); ?>assets/plugins/shape-hover/css/demo.css" />
-<link rel="stylesheet" type="text/css" href="<?php echo base_url(); ?>assets/plugins/shape-hover/css/component.css" />
-<link rel="stylesheet" type="text/css" href="<?php echo base_url(); ?>assets/plugins/owl-carousel/owl.carousel.css" />
-<link rel="stylesheet" type="text/css" href="<?php echo base_url(); ?>assets/plugins/owl-carousel/owl.theme.css" />
-<link href="<?php echo base_url(); ?>assets/plugins/pace/pace-theme-flash.css" rel="stylesheet" type="text/css" media="screen"/>
-<link href="<?php echo base_url(); ?>assets/plugins/jquery-slider/css/jquery.sidr.light.css" rel="stylesheet" type="text/css" media="screen"/>
-<link rel="stylesheet" href="<?php echo base_url(); ?>assets/plugins/jquery-ricksaw-chart/css/rickshaw.css" type="text/css" media="screen" >
-<link rel="stylesheet" href="<?php echo base_url(); ?>assets/plugins/Mapplic/mapplic/mapplic.css" type="text/css" media="screen" >
+<link href="<?php echo base_url(); ?>assets/back/plugins/jquery-metrojs/MetroJs.min.css" rel="stylesheet" type="text/css" />
+<link rel="stylesheet" type="text/css" href="<?php echo base_url(); ?>assets/back/plugins/shape-hover/css/demo.css" />
+<link rel="stylesheet" type="text/css" href="<?php echo base_url(); ?>assets/back/plugins/shape-hover/css/component.css" />
+<link rel="stylesheet" type="text/css" href="<?php echo base_url(); ?>assets/back/plugins/owl-carousel/owl.carousel.css" />
+<link rel="stylesheet" type="text/css" href="<?php echo base_url(); ?>assets/back/plugins/owl-carousel/owl.theme.css" />
+<link href="<?php echo base_url(); ?>assets/back/plugins/pace/pace-theme-flash.css" rel="stylesheet" type="text/css" media="screen"/>
+<link href="<?php echo base_url(); ?>assets/back/plugins/jquery-slider/css/jquery.sidr.light.css" rel="stylesheet" type="text/css" media="screen"/>
+<link rel="stylesheet" href="<?php echo base_url(); ?>assets/back/plugins/jquery-ricksaw-chart/css/rickshaw.css" type="text/css" media="screen" >
+<link rel="stylesheet" href="<?php echo base_url(); ?>assets/back/plugins/Mapplic/mapplic/mapplic.css" type="text/css" media="screen" >
 <!-- BEGIN CORE CSS FRAMEWORK -->
-<link href="<?php echo base_url(); ?>assets/plugins/boostrapv3/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
-<link href="<?php echo base_url(); ?>assets/plugins/boostrapv3/css/bootstrap-theme.min.css" rel="stylesheet" type="text/css"/>
-<link href="<?php echo base_url(); ?>assets/plugins/font-awesome/css/font-awesome.css" rel="stylesheet" type="text/css"/>
-<link href="<?php echo base_url(); ?>assets/css/animate.min.css" rel="stylesheet" type="text/css"/>
-<link href="<?php echo base_url(); ?>assets/plugins/jquery-scrollbar/jquery.scrollbar.css" rel="stylesheet" type="text/css"/>
+<link href="<?php echo base_url(); ?>assets/back/plugins/boostrapv3/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+<link href="<?php echo base_url(); ?>assets/back/plugins/boostrapv3/css/bootstrap-theme.min.css" rel="stylesheet" type="text/css"/>
+<link href="<?php echo base_url(); ?>assets/back/plugins/font-awesome/css/font-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="<?php echo base_url(); ?>assets/back/css/animate.min.css" rel="stylesheet" type="text/css"/>
+<link href="<?php echo base_url(); ?>assets/back/plugins/jquery-scrollbar/jquery.scrollbar.css" rel="stylesheet" type="text/css"/>
 <!-- END CORE CSS FRAMEWORK -->
 
 <!-- BEGIN CSS TEMPLATE -->
-<link href="<?php echo base_url(); ?>assets/css/style.css" rel="stylesheet" type="text/css"/>
-<link href="<?php echo base_url(); ?>assets/css/responsive.css" rel="stylesheet" type="text/css"/>
-<link href="<?php echo base_url(); ?>assets/css/custom-icon-set.css" rel="stylesheet" type="text/css"/>
-<link href="<?php echo base_url(); ?>assets/css/magic_space.css" rel="stylesheet" type="text/css"/>
+<link href="<?php echo base_url(); ?>assets/back/css/style.css" rel="stylesheet" type="text/css"/>
+<link href="<?php echo base_url(); ?>assets/back/css/responsive.css" rel="stylesheet" type="text/css"/>
+<link href="<?php echo base_url(); ?>assets/back/css/custom-icon-set.css" rel="stylesheet" type="text/css"/>
+<link href="<?php echo base_url(); ?>assets/back/css/magic_space.css" rel="stylesheet" type="text/css"/>
 <!-- END CSS TEMPLATE -->
 
 </head>
@@ -47,7 +47,7 @@
           </a> </li>
       </ul>
       <!-- BEGIN LOGO -->
-      <a href="index.html"><img src="assets/img/logo.png" class="logo" alt=""  data-src="assets/img/logo.png" data-src-retina="assets/img/logo2x.png" width="106" height="21"/></a>
+      <a href="index.html"><img src="<?php echo base_url(); ?>assets/back/img/logo.png" class="logo" alt=""  data-src="<?php echo base_url(); ?>assets/back/img/logo.png" data-src-retina="<?php echo base_url(); ?>assets/back/img/logo2x.png" width="106" height="21"/></a>
       <!-- END LOGO -->
       <ul class="nav pull-right notifcation-center">
         <li class="dropdown" id="header_task_bar"> <a href="index.html" class="dropdown-toggle active" data-toggle="">
@@ -95,7 +95,7 @@
           <div id="notification-list" style="display:none">
             <div style="width:300px">
               <div class="notification-messages info">
-                <div class="user-profile"> <img src="assets/img/profiles/d.jpg"  alt="" data-src="assets/img/profiles/d.jpg" data-src-retina="assets/img/profiles/d2x.jpg" width="35" height="35"> </div>
+                <div class="user-profile"> <img src="<?php echo base_url(); ?>assets/back/img/profiles/d.jpg"  alt="" data-src="<?php echo base_url(); ?>assets/back/img/profiles/d.jpg" data-src-retina="<?php echo base_url(); ?>assets/back/img/profiles/d2x.jpg" width="35" height="35"> </div>
                 <div class="message-wrapper">
                   <div class="heading"> David Nester - Commented on your wall </div>
                   <div class="description"> Meeting postponed to tomorrow </div>
@@ -113,7 +113,7 @@
                 <div class="clearfix"></div>
               </div>
               <div class="notification-messages success">
-                <div class="user-profile"> <img src="assets/img/profiles/h.jpg"  alt="" data-src="assets/img/profiles/h.jpg" data-src-retina="assets/img/profiles/h2x.jpg" width="35" height="35"> </div>
+                <div class="user-profile"> <img src="<?php echo base_url(); ?>assets/back/img/profiles/h.jpg"  alt="" data-src="<?php echo base_url(); ?>assets/back/img/profiles/h.jpg" data-src-retina="<?php echo base_url(); ?>assets/back/img/profiles/h2x.jpg" width="35" height="35"> </div>
                 <div class="message-wrapper">
                   <div class="heading"> You haveve got 150 messages </div>
                   <div class="description"> 150 newly unread messages in your inbox </div>
@@ -123,7 +123,7 @@
               </div>
             </div>
           </div>
-          <div class="profile-pic"> <img src="assets/img/profiles/avatar_small.jpg"  alt="" data-src="assets/img/profiles/avatar_small.jpg" data-src-retina="assets/img/profiles/avatar_small2x.jpg" width="35" height="35" /> </div>
+          <div class="profile-pic"> <img src="<?php echo base_url(); ?>assets/back/img/profiles/avatar_small.jpg"  alt="" data-src="<?php echo base_url(); ?>assets/back/img/profiles/avatar_small.jpg" data-src-retina="<?php echo base_url(); ?>assets/back/img/profiles/avatar_small2x.jpg" width="35" height="35" /> </div>
         </div>
         <ul class="nav quick-section ">
           <li class="quicklinks"> <a data-toggle="dropdown" class="dropdown-toggle  pull-right " href="#" id="user-options">
@@ -167,7 +167,7 @@
     <!-- BEGIN MINI-PROFILE -->
     <div class="page-sidebar-wrapper scrollbar-dynamic" id="main-menu-wrapper">
       <div class="user-info-wrapper">
-        <div class="profile-wrapper"> <img src="assets/img/profiles/avatar.jpg"  alt="" data-src="assets/img/profiles/avatar.jpg" data-src-retina="assets/img/profiles/avatar2x.jpg" width="69" height="69" /> </div>
+        <div class="profile-wrapper"> <img src="<?php echo base_url(); ?>assets/back/img/profiles/avatar.jpg"  alt="" data-src="<?php echo base_url(); ?>assets/back/img/profiles/avatar.jpg" data-src-retina="<?php echo base_url(); ?>assets/back/img/profiles/avatar2x.jpg" width="69" height="69" /> </div>
         <div class="user-info">
           <div class="greeting">Welcome</div>
           <div class="username">John <span class="semi-bold">Smith</span></div>
@@ -587,7 +587,7 @@
                   <p class="p-t-10 p-b-10 "><span class="bold">Jane Smith, John Smith, David Jester, pepper</span> post and 214 others like this.</p>
 
 				  <div class="profile-img-wrapper inline m-r-5">
-					<img src="assets/img/profiles/avatar_small.jpg" alt="" data-src="assets/img/profiles/avatar_small.jpg" data-src-retina="assets/img/profiles/avatar_small2x.jpg" width="35" height="35">
+					<img src="<?php echo base_url(); ?>assets/back/img/profiles/avatar_small.jpg" alt="" data-src="<?php echo base_url(); ?>assets/back/img/profiles/avatar_small.jpg" data-src-retina="<?php echo base_url(); ?>assets/img/profiles/avatar_small2x.jpg" width="35" height="35">
 				  </div>
 
                   <input type="text" class="dark m-r-5" id="txtinput1" placeholder="Write a comment" style="width:60%">
@@ -595,7 +595,7 @@
                 </div>
               </div>
             </div>
-            <img src="assets/img/others/9.jpg" data-src="assets/img/others/9.jpg" data-src-retina="assets/img/others/rob.jpg" alt="" class="image-responsive-width hover-effect-img">
+            <img src="<?php echo base_url(); ?>assets/back/img/others/9.jpg" data-src="<?php echo base_url(); ?>assets/back/img/others/9.jpg" data-src-retina="<?php echo base_url(); ?>assets/back/img/others/rob.jpg" alt="" class="image-responsive-width hover-effect-img">
 			</div>
         </div>
 		<!-- END BLOG POST BIG IMAGE WIDGET -->
@@ -632,7 +632,7 @@
                   <div class="overlayer bottom-left fullwidth">
                     <div class="overlayer-wrapper">
                       <div class="user-comment-wrapper">
-                        <div class="profile-wrapper"> <img src="assets/img/profiles/avatar_small.jpg" alt="" data-src="assets/img/profiles/avatar_small.jpg" data-src-retina="assets/img/profiles/avatar_small2x.jpg" width="35" height="35"> </div>
+                        <div class="profile-wrapper"> <img src="<?php echo base_url(); ?>assets/back/img/profiles/avatar_small.jpg" alt="" data-src="<?php echo base_url(); ?>assets/back/img/profiles/avatar_small.jpg" data-src-retina="<?php echo base_url(); ?>assets/back/img/profiles/avatar_small2x.jpg" width="35" height="35"> </div>
                         <div class="comment">
                           <div class="user-name text-white "><span class="bold"> David</span> Cooper </div>
                           <p class="text-white-opacity">@ Revox</p>
@@ -644,7 +644,7 @@
                 </div>
                 <div class="slide-back ha tiles blue">
                   <div class="user-comment-wrapper m-t-20">
-                    <div class="profile-wrapper"> <img src="assets/img/profiles/d.jpg" alt="" data-src="assets/img/profiles/d.jpg" data-src-retina="assets/img/profiles/d2x.jpg" width="35" height="35"> </div>
+                    <div class="profile-wrapper"> <img src="<?php echo base_url(); ?>assets/back/img/profiles/d.jpg" alt="" data-src="<?php echo base_url(); ?>assets/back/img/profiles/d.jpg" data-src-retina="<?php echo base_url(); ?>assets/back/img/profiles/d2x.jpg" width="35" height="35"> </div>
                     <div class="comment">
                       <div class="user-name text-white "><span class="bold"> Jane</span> Smith </div>
                       <p class="text-white-opacity">@ Revox</p>
@@ -709,7 +709,7 @@
                     </div>
                   </div>
                 </div>
-                <img src="assets/img/others/11.png" alt="" class="image-responsive-width xs-image-responsive-width"> </div>
+                <img src="<?php echo base_url(); ?>assets/back/img/others/11.png" alt="" class="image-responsive-width xs-image-responsive-width"> </div>
               <div class="slide-back ha tiles green">
                     <div class="overlayer bottom-left fullwidth">
                     <div class="overlayer-wrapper">
@@ -719,7 +719,7 @@
                       </div>
                     </div>
                   </div>
-                  <img src="assets/img/others/cover.jpg" alt="" class="image-responsive-width xs-image-responsive-width">
+                  <img src="<?php echo base_url(); ?>assets/back/img/others/cover.jpg" alt="" class="image-responsive-width xs-image-responsive-width">
               </div>
             </div>
           </div>
@@ -1298,7 +1298,7 @@
 						<div class="tiles-body">
 						  <div class="row">
 							<div class="user-comment-wrapper pull-left">
-							  <div class="profile-wrapper"> <img src="assets/img/profiles/avatar_small.jpg" alt="" data-src="assets/img/profiles/avatar_small.jpg" data-src-retina="assets/img/profiles/avatar_small2x.jpg" width="35" height="35"> </div>
+							  <div class="profile-wrapper"> <img src="<?php echo base_url(); ?>assets/back/img/profiles/avatar_small.jpg" alt="" data-src="<?php echo base_url(); ?>assets/back/img/profiles/avatar_small.jpg" data-src-retina="<?php echo base_url(); ?>assets/back/img/profiles/avatar_small2x.jpg" width="35" height="35"> </div>
 							  <div class="comment">
 								<div class="user-name text-black bold"> David <span class="semi-bold">Cooper</span> </div>
 								<div class="preview-wrapper">@ revox </div>
@@ -1334,7 +1334,7 @@
                       <div class="col-md-2">
                         <div class="profile-img-wrapper pull-left m-l-10">
                           <div class=" p-r-10">
-						  <img src="assets/img/profiles/c.jpg" alt="" data-src="assets/img/profiles/c.jpg" data-src-retina="assets/img/profiles/c2x.jpg" width="35" height="35"> </div>
+						  <img src="<?php echo base_url(); ?>assets/back/img/profiles/c.jpg" alt="" data-src="<?php echo base_url(); ?>assets/back/img/profiles/c.jpg" data-src-retina="<?php echo base_url(); ?>assets/back/img/profiles/c2x.jpg" width="35" height="35"> </div>
                         </div>
                       </div>
                       <div class="col-md-10">
@@ -1343,8 +1343,8 @@
                       </div>
                     </div>
                     <div id="image-demo-carl-2" class="m-t-15 owl-carousel owl-theme">
-						  <div class="item"><img src="assets/img/others/1.jpg" alt=""></div>
-						  <div class="item"><img src="assets/img/others/2.jpg" alt=""></div>
+						  <div class="item"><img src="<?php echo base_url(); ?>assets/back/img/others/1.jpg" alt=""></div>
+						  <div class="item"><img src="<?php echo base_url(); ?>assets/back/img/others/2.jpg" alt=""></div>
 					</div>
                     <div class="post p-b-15 p-t-15 p-l-15 b-b b-grey">
                       <ul class="action-bar no-margin ">
@@ -1356,7 +1356,7 @@
                     <p class="p-t-10 p-b-10 p-l-15 p-r-15"><span class="bold">Jane Smith, John Smith, David Jester, pepper</span> post and 214 others like this.</p>
                     <div class="clearfix"></div>
                     <div class="p-b-10 p-l-10 p-r-10">
-                      <div class="profile-img-wrapper pull-left"> <img src="assets/img/profiles/avatar_small.jpg" alt="" data-src="assets/img/profiles/avatar_small.jpg" data-src-retina="assets/img/profiles/avatar_small2x.jpg" width="35" height="35"> </div>
+                      <div class="profile-img-wrapper pull-left"> <img src="<?php echo base_url(); ?>assets/back/img/profiles/avatar_small.jpg" alt="" data-src="<?php echo base_url(); ?>assets/back/img/profiles/avatar_small.jpg" data-src-retina="<?php echo base_url(); ?>assets/back/img/profiles/avatar_small2x.jpg" width="35" height="35"> </div>
                       <div class="inline pull-right" style="width:86%">
                         <div class="input-group transparent ">
                           <input type="text" class="form-control" placeholder="Write a comment">
@@ -1386,12 +1386,12 @@
                         </div>
                       </div>
                     </div>
-                    <img src="assets/img/others/10.png" alt="" class="lazy hover-effect-img"> </div>
+                    <img src="<?php echo base_url(); ?>assets/back/img/others/10.png" alt="" class="lazy hover-effect-img"> </div>
                   <div class="tiles white ">
                     <div class="tiles-body">
                       <div class="row">
 					  <div class="user-profile-pic text-left">
-						<img width="69" height="69" data-src-retina="assets/img/profiles/avatar2x.jpg" data-src="assets/img/profiles/avatar.jpg" src="assets/img/profiles/avatar.jpg" alt="">
+						<img width="69" height="69" data-src-retina="<?php echo base_url(); ?>assets/back/img/profiles/avatar2x.jpg" data-src="<?php echo base_url(); ?>assets/back/img/profiles/avatar.jpg" src="<?php echo base_url(); ?>assets/back/img/profiles/avatar.jpg" alt="">
 						 <div class="pull-right m-r-20 m-t-35"> <span class="bold text-black small-text">24m</span> </div>
 					  </div>
                         <div class="col-md-5 no-padding">
@@ -1444,7 +1444,7 @@
                       <div class="row">
                         <div class="user-comment-wrapper pull-left">
                           <div class="profile-wrapper">
-						  <img src="assets/img/profiles/d.jpg" alt="" data-src="assets/img/profiles/d.jpg" data-src-retina="assets/img/profiles/d2x.jpg" width="35" height="35">
+						  <img src="<?php echo base_url(); ?>assets/back/img/profiles/d.jpg" alt="" data-src="<?php echo base_url(); ?>assets/back/img/profiles/d.jpg" data-src-retina="<?php echo base_url(); ?>assets/back/img/profiles/d2x.jpg" width="35" height="35">
 						  </div>
                           <div class="comment">
                             <div class="user-name text-black bold"> Jane <span class="semi-bold">Smith</span> </div>
@@ -1484,7 +1484,7 @@
                       <div class="col-md-2">
                         <div class="profile-img-wrapper pull-left m-l-10">
                           <div class=" p-r-10">
-						  <img src="assets/img/profiles/h.jpg" alt="" data-src="assets/img/profiles/h.jpg" data-src-retina="assets/img/profiles/h2x.jpg" width="35" height="35">
+						  <img src="<?php echo base_url(); ?>assets/back/img/profiles/h.jpg" alt="" data-src="<?php echo base_url(); ?>assets/back/img/profiles/h.jpg" data-src-retina="<?php echo base_url(); ?>assets/back/img/profiles/h2x.jpg" width="35" height="35">
 
 						  </div>
                         </div>
@@ -1506,7 +1506,7 @@
                     <div class="clearfix"></div>
                     <div class="p-b-10 p-l-10 p-r-10">
                       <div class="profile-img-wrapper pull-left">
-					  <img width="35" height="35" alt="" src="assets/img/profiles/e.jpg" data-src="assets/img/profiles/e.jpg" data-src-retina="assets/img/profiles/e2x.jpg"> </div>
+					  <img width="35" height="35" alt="" src="<?php echo base_url(); ?>assets/back/img/profiles/e.jpg" data-src="<?php echo base_url(); ?>assets/back/img/profiles/e.jpg" data-src-retina="<?php echo base_url(); ?>assets/back/img/profiles/e2x.jpg"> </div>
                       <div class="inline pull-right" style="width:86%">
                         <div class="input-group transparent ">
                           <input type="text" class="form-control" placeholder="Write a comment">
@@ -1533,12 +1533,12 @@
                         </div>
                       </div>
                     </div>
-                    <img src="assets/img/others/10.png" alt="" class="lazy hover-effect-img"> </div>
+                    <img src="<?php echo base_url(); ?>assets/back/img/others/10.png" alt="" class="lazy hover-effect-img"> </div>
                   <div class="tiles white ">
                     <div class="tiles-body">
                       <div class="row">
 					  <div class="user-profile-pic text-left">
-						<img width="69" height="69" data-src-retina="assets/img/profiles/avatar2x.jpg" data-src="assets/img/profiles/avatar.jpg" src="assets/img/profiles/avatar.jpg" alt="">
+						<img width="69" height="69" data-src-retina="<?php echo base_url(); ?>assets/back/img/profiles/avatar2x.jpg" data-src="<?php echo base_url(); ?>assets/back/img/profiles/avatar.jpg" src="<?php echo base_url(); ?>assets/back/img/profiles/avatar.jpg" alt="">
 						 <div class="pull-right m-r-20 m-t-35"> <span class="bold text-black small-text">24m</span> </div>
 					  </div>
                         <div class="col-md-5 no-padding">
@@ -1597,7 +1597,7 @@
 						<div class="tiles-body">
 						  <div class="row">
 							<div class="user-comment-wrapper pull-left">
-							  <div class="profile-wrapper"> <img src="assets/img/profiles/avatar_small.jpg" alt="" data-src="assets/img/profiles/avatar_small.jpg" data-src-retina="assets/img/profiles/avatar_small2x.jpg" width="35" height="35"> </div>
+							  <div class="profile-wrapper"> <img src="<?php echo base_url(); ?>assets/back/img/profiles/avatar_small.jpg" alt="" data-src="<?php echo base_url(); ?>assets/back/img/profiles/avatar_small.jpg" data-src-retina="<?php echo base_url(); ?>assets/back/img/profiles/avatar_small2x.jpg" width="35" height="35"> </div>
 							  <div class="comment">
 								<div class="user-name text-black bold"> David <span class="semi-bold">Cooper</span> </div>
 								<div class="preview-wrapper">@ revox </div>
@@ -1633,7 +1633,7 @@
                       <div class="col-md-2">
                         <div class="profile-img-wrapper pull-left m-l-10">
                           <div class=" p-r-10">
-						  <img src="assets/img/profiles/c.jpg" alt="" data-src="assets/img/profiles/c.jpg" data-src-retina="assets/img/profiles/c2x.jpg" width="35" height="35"> </div>
+						  <img src="<?php echo base_url(); ?>assets/back/img/profiles/c.jpg" alt="" data-src="<?php echo base_url(); ?>assets/back/img/profiles/c.jpg" data-src-retina="<?php echo base_url(); ?>assets/back/img/profiles/c2x.jpg" width="35" height="35"> </div>
                         </div>
                       </div>
                       <div class="col-md-10">
@@ -1642,8 +1642,8 @@
                       </div>
                     </div>
                     <div id="image-demo-carl" class="m-t-15 owl-carousel owl-theme">
-						  <div class="item"><img src="assets/img/others/1.jpg" alt=""></div>
-						  <div class="item"><img src="assets/img/others/2.jpg" alt=""></div>
+						  <div class="item"><img src="<?php echo base_url(); ?>assets/back/img/others/1.jpg" alt=""></div>
+						  <div class="item"><img src="<?php echo base_url(); ?>assets/back/img/others/2.jpg" alt=""></div>
 					</div>
                     <div class="post p-b-15 p-t-15 p-l-15 b-b b-grey">
                       <ul class="action-bar no-margin ">
@@ -1655,7 +1655,7 @@
                     <p class="p-t-10 p-b-10 p-l-15 p-r-15"><span class="bold">Jane Smith, John Smith, David Jester, pepper</span> post and 214 others like this.</p>
                     <div class="clearfix"></div>
                     <div class="p-b-10 p-l-10 p-r-10">
-                      <div class="profile-img-wrapper pull-left"> <img src="assets/img/profiles/avatar_small.jpg" alt="" data-src="assets/img/profiles/avatar_small.jpg" data-src-retina="assets/img/profiles/avatar_small2x.jpg" width="35" height="35"> </div>
+                      <div class="profile-img-wrapper pull-left"> <img src="<?php echo base_url(); ?>assets/back/img/profiles/avatar_small.jpg" alt="" data-src="<?php echo base_url(); ?>assets/back/img/profiles/avatar_small.jpg" data-src-retina="<?php echo base_url(); ?>assets/back/img/profiles/avatar_small2x.jpg" width="35" height="35"> </div>
                       <div class="inline pull-right" style="width:86%">
                         <div class="input-group transparent ">
                           <input type="text" class="form-control" placeholder="Write a comment">
@@ -1685,12 +1685,12 @@
                         </div>
                       </div>
                     </div>
-                    <img src="assets/img/others/10.png" alt="" class="lazy hover-effect-img"> </div>
+                    <img src="<?php echo base_url(); ?>assets/back/img/others/10.png" alt="" class="lazy hover-effect-img"> </div>
                   <div class="tiles white ">
                     <div class="tiles-body">
                       <div class="row">
 					  <div class="user-profile-pic text-left">
-						<img width="69" height="69" data-src-retina="assets/img/profiles/avatar2x.jpg" data-src="assets/img/profiles/avatar.jpg" src="assets/img/profiles/avatar.jpg" alt="">
+						<img width="69" height="69" data-src-retina="<?php echo base_url(); ?>assets/back/img/profiles/avatar2x.jpg" data-src="<?php echo base_url(); ?>assets/back/img/profiles/avatar.jpg" src="<?php echo base_url(); ?>assets/back/img/profiles/avatar.jpg" alt="">
 						 <div class="pull-right m-r-20 m-t-35"> <span class="bold text-black small-text">24m</span> </div>
 					  </div>
                         <div class="col-md-5 no-padding">
@@ -1743,7 +1743,7 @@
                       <div class="row">
                         <div class="user-comment-wrapper pull-left">
                           <div class="profile-wrapper">
-						  <img src="assets/img/profiles/d.jpg" alt="" data-src="assets/img/profiles/d.jpg" data-src-retina="assets/img/profiles/d2x.jpg" width="35" height="35">
+						  <img src="<?php echo base_url(); ?>assets/back/img/profiles/d.jpg" alt="" data-src="<?php echo base_url(); ?>assets/back/img/profiles/d.jpg" data-src-retina="<?php echo base_url(); ?>assets/back/img/profiles/d2x.jpg" width="35" height="35">
 						  </div>
                           <div class="comment">
                             <div class="user-name text-black bold"> Jane <span class="semi-bold">Smith</span> </div>
@@ -1783,7 +1783,7 @@
                       <div class="col-md-2">
                         <div class="profile-img-wrapper pull-left m-l-10">
                           <div class=" p-r-10">
-						  <img src="assets/img/profiles/h.jpg" alt="" data-src="assets/img/profiles/h.jpg" data-src-retina="assets/img/profiles/h2x.jpg" width="35" height="35">
+						  <img src="<?php echo base_url(); ?>assets/back/img/profiles/h.jpg" alt="" data-src="<?php echo base_url(); ?>assets/back/img/profiles/h.jpg" data-src-retina="<?php echo base_url(); ?>assets/back/img/profiles/h2x.jpg" width="35" height="35">
 
 						  </div>
                         </div>
@@ -1805,7 +1805,7 @@
                     <div class="clearfix"></div>
                     <div class="p-b-10 p-l-10 p-r-10">
                       <div class="profile-img-wrapper pull-left">
-					  <img width="35" height="35" alt="" src="assets/img/profiles/e.jpg" data-src="assets/img/profiles/e.jpg" data-src-retina="assets/img/profiles/e2x.jpg"> </div>
+					  <img width="35" height="35" alt="" src="<?php echo base_url(); ?>assets/back/img/profiles/e.jpg" data-src="<?php echo base_url(); ?>assets/back/img/profiles/e.jpg" data-src-retina="<?php echo base_url(); ?>assets/back/img/profiles/e2x.jpg"> </div>
                       <div class="inline pull-right" style="width:86%">
                         <div class="input-group transparent ">
                           <input type="text" class="form-control" placeholder="Write a comment">
@@ -1832,12 +1832,12 @@
                         </div>
                       </div>
                     </div>
-                    <img src="assets/img/others/10.png" alt="" class="lazy hover-effect-img"> </div>
+                    <img src="<?php echo base_url(); ?>assets/back/img/others/10.png" alt="" class="lazy hover-effect-img"> </div>
                   <div class="tiles white ">
                     <div class="tiles-body">
                       <div class="row">
 					  <div class="user-profile-pic text-left">
-						<img width="69" height="69" data-src-retina="assets/img/profiles/avatar2x.jpg" data-src="assets/img/profiles/avatar.jpg" src="assets/img/profiles/avatar.jpg" alt="">
+						<img width="69" height="69" data-src-retina="<?php echo base_url(); ?>assets/back/img/profiles/avatar2x.jpg" data-src="<?php echo base_url(); ?>assets/back/img/profiles/avatar.jpg" src="<?php echo base_url(); ?>assets/back/img/profiles/avatar.jpg" alt="">
 						 <div class="pull-right m-r-20 m-t-35"> <span class="bold text-black small-text">24m</span> </div>
 					  </div>
                         <div class="col-md-5 no-padding">
@@ -1897,9 +1897,9 @@
                <div class="side-widget-title">favourites</div>
                <div id="favourites-list">
                 <div class="side-widget-content" >
-                    <div class="user-details-wrapper active" data-chat-status="online" data-chat-user-pic="assets/img/profiles/d.jpg" data-chat-user-pic-retina="assets/img/profiles/d2x.jpg" data-user-name="Jane Smith">
+                    <div class="user-details-wrapper active" data-chat-status="online" data-chat-user-pic="<?php echo base_url(); ?>assets/back/img/profiles/d.jpg" data-chat-user-pic-retina="<?php echo base_url(); ?>assets/back/img/profiles/d2x.jpg" data-user-name="Jane Smith">
                         <div class="user-profile">
-                            <img src="assets/img/profiles/d.jpg"  alt="" data-src="assets/img/profiles/d.jpg" data-src-retina="assets/img/profiles/d2x.jpg" width="35" height="35">
+                            <img src="<?php echo base_url(); ?>assets/back/img/profiles/d.jpg"  alt="" data-src="<?php echo base_url(); ?>assets/back/img/profiles/d.jpg" data-src-retina="<?php echo base_url(); ?>assets/back/img/profiles/d2x.jpg" width="35" height="35">
                         </div>
                         <div class="user-details">
                             <div class="user-name">
@@ -1917,9 +1917,9 @@
                         </div>
                         <div class="clearfix"></div>
                     </div>
-                    <div class="user-details-wrapper" data-chat-status="busy" data-chat-user-pic="assets/img/profiles/d.jpg" data-chat-user-pic-retina="assets/img/profiles/d2x.jpg" data-user-name="David Nester">
+                    <div class="user-details-wrapper" data-chat-status="busy" data-chat-user-pic="<?php echo base_url(); ?>assets/back/img/profiles/d.jpg" data-chat-user-pic-retina="<?php echo base_url(); ?>assets/back/img/profiles/d2x.jpg" data-user-name="David Nester">
                         <div class="user-profile">
-                            <img src="assets/img/profiles/c.jpg"  alt="" data-src="assets/img/profiles/c.jpg" data-src-retina="assets/img/profiles/c2x.jpg" width="35" height="35">
+                            <img src="<?php echo base_url(); ?>assets/back/img/profiles/c.jpg"  alt="" data-src="<?php echo base_url(); ?>assets/back/img/profiles/c.jpg" data-src-retina="<?php echo base_url(); ?>assets/back/img/profiles/c2x.jpg" width="35" height="35">
                         </div>
                         <div class="user-details">
                             <div class="user-name">
@@ -1943,9 +1943,9 @@
             <div class="side-widget">
                <div class="side-widget-title">more friends</div>
                  <div class="side-widget-content" id="friends-list">
-                    <div class="user-details-wrapper" data-chat-status="online" data-chat-user-pic="assets/img/profiles/d.jpg" data-chat-user-pic-retina="assets/img/profiles/d2x.jpg" data-user-name="Jane Smith">
+                    <div class="user-details-wrapper" data-chat-status="online" data-chat-user-pic="<?php echo base_url(); ?>assets/back/img/profiles/d.jpg" data-chat-user-pic-retina="<?php echo base_url(); ?>assets/back/img/profiles/d2x.jpg" data-user-name="Jane Smith">
                         <div class="user-profile">
-                            <img src="assets/img/profiles/d.jpg"  alt="" data-src="assets/img/profiles/d.jpg" data-src-retina="assets/img/profiles/d2x.jpg" width="35" height="35">
+                            <img src="<?php echo base_url(); ?>assets/back/img/profiles/d.jpg"  alt="" data-src="<?php echo base_url(); ?>assets/back/img/profiles/d.jpg" data-src-retina="<?php echo base_url(); ?>assets/back/img/profiles/d2x.jpg" width="35" height="35">
                         </div>
                         <div class="user-details">
                             <div class="user-name">
@@ -1963,9 +1963,9 @@
                         </div>
                         <div class="clearfix"></div>
                     </div>
-                    <div class="user-details-wrapper" data-chat-status="busy" data-chat-user-pic="assets/img/profiles/d.jpg" data-chat-user-pic-retina="assets/img/profiles/d2x.jpg" data-user-name="David Nester">
+                    <div class="user-details-wrapper" data-chat-status="busy" data-chat-user-pic="<?php echo base_url(); ?>assets/back/img/profiles/d.jpg" data-chat-user-pic-retina="<?php echo base_url(); ?>assets/back/img/profiles/d2x.jpg" data-user-name="David Nester">
                         <div class="user-profile">
-                            <img src="assets/img/profiles/h.jpg"  alt="" data-src="assets/img/profiles/h.jpg" data-src-retina="assets/img/profiles/h2x.jpg" width="35" height="35">
+                            <img src="<?php echo base_url(); ?>assets/back/img/profiles/h.jpg"  alt="" data-src="<?php echo base_url(); ?>assets/back/img/profiles/h.jpg" data-src-retina="<?php echo base_url(); ?>assets/back/img/profiles/h2x.jpg" width="35" height="35">
                         </div>
                         <div class="user-details">
                             <div class="user-name">
@@ -1983,9 +1983,9 @@
                         </div>
                         <div class="clearfix"></div>
                     </div>
-                    <div class="user-details-wrapper" data-chat-status="online" data-chat-user-pic="assets/img/profiles/d.jpg" data-chat-user-pic-retina="assets/img/profiles/d2x.jpg" data-user-name="Jane Smith">
+                    <div class="user-details-wrapper" data-chat-status="online" data-chat-user-pic="<?php echo base_url(); ?>assets/back/img/profiles/d.jpg" data-chat-user-pic-retina="<?php echo base_url(); ?>assets/back/img/profiles/d2x.jpg" data-user-name="Jane Smith">
                         <div class="user-profile">
-                            <img src="assets/img/profiles/c.jpg"  alt="" data-src="assets/img/profiles/c.jpg" data-src-retina="assets/img/profiles/c2x.jpg" width="35" height="35">
+                            <img src="<?php echo base_url(); ?>assets/back/img/profiles/c.jpg"  alt="" data-src="<?php echo base_url(); ?>assets/back/img/profiles/c.jpg" data-src-retina="<?php echo base_url(); ?>assets/back/img/profiles/c2x.jpg" width="35" height="35">
                         </div>
                         <div class="user-details">
                             <div class="user-name">
@@ -2003,9 +2003,9 @@
                         </div>
                         <div class="clearfix"></div>
                     </div>
-                    <div class="user-details-wrapper" data-chat-status="busy" data-chat-user-pic="assets/img/profiles/d.jpg" data-chat-user-pic-retina="assets/img/profiles/d2x.jpg" data-user-name="David Nester">
+                    <div class="user-details-wrapper" data-chat-status="busy" data-chat-user-pic="<?php echo base_url(); ?>assets/back/img/profiles/d.jpg" data-chat-user-pic-retina="<?php echo base_url(); ?>assets/back/img/profiles/d2x.jpg" data-user-name="David Nester">
                         <div class="user-profile">
-                            <img src="assets/img/profiles/h.jpg"  alt="" data-src="assets/img/profiles/h.jpg" data-src-retina="assets/img/profiles/h2x.jpg" width="35" height="35">
+                            <img src="<?php echo base_url(); ?>assets/back/img/profiles/h.jpg"  alt="" data-src="<?php echo base_url(); ?>assets/back/img/profiles/h.jpg" data-src-retina="<?php echo base_url(); ?>assets/back/img/profiles/h2x.jpg" width="35" height="35">
                         </div>
                         <div class="user-details">
                             <div class="user-name">
@@ -2046,7 +2046,7 @@
             <div class="sent_time">Yesterday 11:25pm</div>
             <div class="user-details-wrapper " >
                 <div class="user-profile">
-                    <img src="assets/img/profiles/d.jpg"  alt="" data-src="assets/img/profiles/d.jpg" data-src-retina="assets/img/profiles/d2x.jpg" width="35" height="35">
+                    <img src="<?php echo base_url(); ?>assets/back/img/profiles/d.jpg"  alt="" data-src="<?php echo base_url(); ?>assets/back/img/profiles/d.jpg" data-src-retina="<?php echo base_url(); ?>assets/back/img/profiles/d2x.jpg" width="35" height="35">
                 </div>
                 <div class="user-details">
                   <div class="bubble">
@@ -2058,7 +2058,7 @@
             </div>
             <div class="user-details-wrapper ">
                 <div class="user-profile">
-                    <img src="assets/img/profiles/d.jpg"  alt="" data-src="assets/img/profiles/d.jpg" data-src-retina="assets/img/profiles/d2x.jpg" width="35" height="35">
+                    <img src="<?php echo base_url(); ?>assets/back/img/profiles/d.jpg"  alt="" data-src="<?php echo base_url(); ?>assets/back/img/profiles/d.jpg" data-src-retina="<?php echo base_url(); ?>assets/back/img/profiles/d2x.jpg" width="35" height="35">
                 </div>
                 <div class="user-details">
                   <div class="bubble">
@@ -2070,7 +2070,7 @@
             </div>
             <div class="user-details-wrapper ">
                 <div class="user-profile">
-                    <img src="assets/img/profiles/d.jpg"  alt="" data-src="assets/img/profiles/d.jpg" data-src-retina="assets/img/profiles/d2x.jpg" width="35" height="35">
+                    <img src="<?php echo base_url(); ?>assets/back/img/profiles/d.jpg"  alt="" data-src="<?php echo base_url(); ?>assets/back/img/profiles/d.jpg" data-src-retina="<?php echo base_url(); ?>assets/back/img/profiles/d2x.jpg" width="35" height="35">
                 </div>
                 <div class="user-details">
                   <div class="bubble">
@@ -2109,42 +2109,42 @@
 <script src="assets/plugins/respond.js"></script>
 <![endif]-->
 
-<script src="<?php echo base_url(); ?>assets/plugins/jquery-1.8.3.min.js" type="text/javascript"></script>
-<script src="<?php echo base_url(); ?>assets/plugins/jquery-ui/jquery-ui-1.10.1.custom.min.js" type="text/javascript"></script>
-<script src="<?php echo base_url(); ?>assets/plugins/boostrapv3/js/bootstrap.min.js" type="text/javascript"></script>
-<script src="<?php echo base_url(); ?>assets/plugins/breakpoints.js" type="text/javascript"></script>
-<script src="<?php echo base_url(); ?>assets/plugins/jquery-unveil/jquery.unveil.min.js" type="text/javascript"></script>
-<script src="<?php echo base_url(); ?>assets/plugins/jquery-block-ui/jqueryblockui.js" type="text/javascript"></script>
-<script src="<?php echo base_url(); ?>assets/plugins/jquery-lazyload/jquery.lazyload.min.js" type="text/javascript"></script>
-<script src="<?php echo base_url(); ?>assets/plugins/jquery-scrollbar/jquery.scrollbar.min.js" type="text/javascript"></script>
+<script src="<?php echo base_url(); ?>assets/back/plugins/jquery-1.8.3.min.js" type="text/javascript"></script>
+<script src="<?php echo base_url(); ?>assets/back/plugins/jquery-ui/jquery-ui-1.10.1.custom.min.js" type="text/javascript"></script>
+<script src="<?php echo base_url(); ?>assets/back/plugins/boostrapv3/js/bootstrap.min.js" type="text/javascript"></script>
+<script src="<?php echo base_url(); ?>assets/back/plugins/breakpoints.js" type="text/javascript"></script>
+<script src="<?php echo base_url(); ?>assets/back/plugins/jquery-unveil/jquery.unveil.min.js" type="text/javascript"></script>
+<script src="<?php echo base_url(); ?>assets/back/plugins/jquery-block-ui/jqueryblockui.js" type="text/javascript"></script>
+<script src="<?php echo base_url(); ?>assets/back/plugins/jquery-lazyload/jquery.lazyload.min.js" type="text/javascript"></script>
+<script src="<?php echo base_url(); ?>assets/back/plugins/jquery-scrollbar/jquery.scrollbar.min.js" type="text/javascript"></script>
 <!-- END CORE JS FRAMEWORK -->
 <!-- BEGIN PAGE LEVEL JS -->
-<script src="<?php echo base_url(); ?>assets/plugins/jquery-slider/jquery.sidr.min.js" type="text/javascript"></script>
-<script src="<?php echo base_url(); ?>assets/plugins/jquery-slimscroll/jquery.slimscroll.min.js" type="text/javascript"></script>
-<script src="<?php echo base_url(); ?>assets/plugins/pace/pace.min.js" type="text/javascript"></script>
-<script src="<?php echo base_url(); ?>assets/plugins/jquery-numberAnimate/jquery.animateNumbers.js" type="text/javascript"></script>
-<script src="<?php echo base_url(); ?>assets/plugins/jquery-ricksaw-chart/js/raphael-min.js"></script>
-<script src="<?php echo base_url(); ?>assets/plugins/jquery-ricksaw-chart/js/d3.v2.js"></script>
-<script src="<?php echo base_url(); ?>assets/plugins/jquery-ricksaw-chart/js/rickshaw.min.js"></script>
-<script src="<?php echo base_url(); ?>assets/plugins/jquery-sparkline/jquery-sparkline.js"></script>
-<script src="<?php echo base_url(); ?>assets/plugins/skycons/skycons.js"></script>
-<script src="<?php echo base_url(); ?>assets/plugins/owl-carousel/owl.carousel.min.js" type="text/javascript"></script>
+<script src="<?php echo base_url(); ?>assets/back/plugins/jquery-slider/jquery.sidr.min.js" type="text/javascript"></script>
+<script src="<?php echo base_url(); ?>assets/back/plugins/jquery-slimscroll/jquery.slimscroll.min.js" type="text/javascript"></script>
+<script src="<?php echo base_url(); ?>assets/back/plugins/pace/pace.min.js" type="text/javascript"></script>
+<script src="<?php echo base_url(); ?>assets/back/plugins/jquery-numberAnimate/jquery.animateNumbers.js" type="text/javascript"></script>
+<script src="<?php echo base_url(); ?>assets/back/plugins/jquery-ricksaw-chart/js/raphael-min.js"></script>
+<script src="<?php echo base_url(); ?>assets/back/plugins/jquery-ricksaw-chart/js/d3.v2.js"></script>
+<script src="<?php echo base_url(); ?>assets/back/plugins/jquery-ricksaw-chart/js/rickshaw.min.js"></script>
+<script src="<?php echo base_url(); ?>assets/back/plugins/jquery-sparkline/jquery-sparkline.js"></script>
+<script src="<?php echo base_url(); ?>assets/back/plugins/skycons/skycons.js"></script>
+<script src="<?php echo base_url(); ?>assets/back/plugins/owl-carousel/owl.carousel.min.js" type="text/javascript"></script>
 <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=true"></script>
-<script src="<?php echo base_url(); ?>assets/plugins/jquery-gmap/gmaps.js" type="text/javascript"></script>
-<script src="<?php echo base_url(); ?>assets/plugins/Mapplic/js/jquery.easing.js" type="text/javascript"></script>
-<script src="<?php echo base_url(); ?>assets/plugins/Mapplic/js/jquery.mousewheel.js" type="text/javascript"></script>
-<script src="<?php echo base_url(); ?>assets/plugins/Mapplic/js/hammer.js" type="text/javascript"></script>
-<script src="<?php echo base_url(); ?>assets/plugins/Mapplic/mapplic/mapplic.js" type="text/javascript"></script>
+<script src="<?php echo base_url(); ?>assets/back/plugins/jquery-gmap/gmaps.js" type="text/javascript"></script>
+<script src="<?php echo base_url(); ?>assets/back/plugins/Mapplic/js/jquery.easing.js" type="text/javascript"></script>
+<script src="<?php echo base_url(); ?>assets/back/plugins/Mapplic/js/jquery.mousewheel.js" type="text/javascript"></script>
+<script src="<?php echo base_url(); ?>assets/back/plugins/Mapplic/js/hammer.js" type="text/javascript"></script>
+<script src="<?php echo base_url(); ?>assets/back/plugins/Mapplic/mapplic/mapplic.js" type="text/javascript"></script>
 
-<script src="<?php echo base_url(); ?>assets/plugins/jquery-flot/jquery.flot.js" type="text/javascript"></script>
-<script src="<?php echo base_url(); ?>assets/plugins/jquery-flot/jquery.flot.resize.min.js" type="text/javascript"></script>
-<script src="<?php echo base_url(); ?>assets/plugins/jquery-metrojs/MetroJs.min.js" type="text/javascript" ></script>
+<script src="<?php echo base_url(); ?>assets/back/plugins/jquery-flot/jquery.flot.js" type="text/javascript"></script>
+<script src="<?php echo base_url(); ?>assets/back/plugins/jquery-flot/jquery.flot.resize.min.js" type="text/javascript"></script>
+<script src="<?php echo base_url(); ?>assets/back/plugins/jquery-metrojs/MetroJs.min.js" type="text/javascript" ></script>
 <!-- END PAGE LEVEL PLUGINS -->
 <!-- BEGIN CORE TEMPLATE JS -->
-<script src="<?php echo base_url(); ?>assets/js/core.js" type="text/javascript"></script>
-<script src="<?php echo base_url(); ?>assets/js/chat.js" type="text/javascript"></script>
-<script src="<?php echo base_url(); ?>assets/js/demo.js" type="text/javascript"></script>
-<script src="<?php echo base_url(); ?>assets/js/dashboard_v2.js" type="text/javascript"></script>
+<script src="<?php echo base_url(); ?>assets/back/js/core.js" type="text/javascript"></script>
+<script src="<?php echo base_url(); ?>assets/back/js/chat.js" type="text/javascript"></script>
+<script src="<?php echo base_url(); ?>assets/back/js/demo.js" type="text/javascript"></script>
+<script src="<?php echo base_url(); ?>assets/back/js/dashboard_v2.js" type="text/javascript"></script>
 <script type="text/javascript">
         $(document).ready(function () {
             $(".live-tile,.flip-list").liveTile();
